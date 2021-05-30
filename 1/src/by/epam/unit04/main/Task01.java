@@ -7,8 +7,8 @@ public class Task01 {
 
         //Here a sequence of numbers is initiated:
         Random rand = new Random();
-        int n = rand.nextInt(1000);;
-        int[] mas = new int[n];;
+        int n = rand.nextInt(1000);
+        int[] mas = new int[n];
 
         for (int i = 0; i < mas.length; i++) {
             mas[i] = rand.nextInt();
