@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Task06 {
     public static void main(String[] args) {
-        
+
         Random rand = new Random();
         int n = rand.nextInt(20);
         int m = rand.nextInt(20);
@@ -35,6 +35,5 @@ public class Task06 {
 
         System.out.println();
         System.out.println("The number of '7' in the array = " + count);
-
     }
 }
