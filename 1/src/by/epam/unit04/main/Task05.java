@@ -8,11 +8,11 @@ public class Task05 {
         Random rand = new Random();
 
         for(int i = 0; i < array.length; i++) {
-            array[i] = rand.nextInt(1000);
+            array[i] = rand.nextInt(999);
         }
 
         for(int i = 0; i < array.length; i++) {
-            System.out.printf("%4d", array[i]);
+            System.out.printf("%3d", array[i]);
         }
         System.out.println();
 
@@ -28,7 +28,7 @@ public class Task05 {
         }
 
         for(int i = 0; i < array.length; i++) {
-            System.out.printf("%4d", array[i]);
+            System.out.printf("%3d", array[i]);
         }
     }
 }

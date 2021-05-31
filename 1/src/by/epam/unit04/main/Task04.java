@@ -8,11 +8,11 @@ public class Task04 {
         Random rand = new Random();
 
         for (int i = 0; i < mas.length; i++) {
-            mas[i] = rand.nextInt(1000);
+            mas[i] = rand.nextInt(999);
         }
 
         for (int j = 0; j < mas.length; j++) {
-            System.out.printf("%4d", mas[j]);
+            System.out.printf("%3d", mas[j]);
         }
         System.out.println();
 
@@ -31,7 +31,7 @@ public class Task04 {
         }
 
         for (int i = 0; i < mas.length; i++) {
-            System.out.printf("%4d", mas[i]);
+            System.out.printf("%3d", mas[i]);
         }
         System.out.println();
 

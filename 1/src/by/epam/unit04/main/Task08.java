@@ -19,7 +19,7 @@ public class Task08 {
 
         for (int i = 0; i < mas.length; i++) {
             for (int j = 0; j < mas[i].length; j++) {
-                System.out.printf("[%4d]", mas[i][j]);
+                System.out.printf("[%3d]", mas[i][j]);
             }
             System.out.println();
         }
@@ -27,7 +27,7 @@ public class Task08 {
         System.out.println();
 
         for (int j = 0; j < mas[k].length; j++) {
-            System.out.printf("[%4d]", mas[k][j]);
+            System.out.printf("[%3d]", mas[k][j]);
         }
         System.out.println();
         System.out.println();
